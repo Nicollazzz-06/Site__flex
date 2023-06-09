@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding:0;
+ font-family: 'Josefin Sans', sansa-serif;
+ color: white;
+ font-weight: 400;
+}
+
+
+body {background-color: black;
+margin-top: 2%;
+}
+
+svg{
+transition: 0.3s;
+fill: grey;}
+
+svg:hover {
+    fill: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 1%;
+
+    align-items: center;
+}
+header div{
+width: 12%;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    list-style: none;
+    color: gray;
+}
+
+li:hover{
+    color: green;
+}
+
+li{
+    color: gray;
+    font-size: 14px;
+}
+
+#Sub{
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 99;
+    width: 250%;
+    margin-top: 20px;
+}
+
+#Sub li{
+    padding: 10px 0px 10px 0px;
+    font-size: 17px;
+     color: black;
+     padding-left: 15px;}
+
+#Gallery{
+    position: relative;
+}
+
+#Gallery:hover #Sub{
+    flex-direction: column;
+    display: block;
+    top: 0px;
+   
+}
+
+a{
+    text-decoration: none;
+   color: gray;
+}
+
+a:hover{
+    color: green;
+}
+
+#icones{
+display: flex;
+gap: 2em;
+fill: gray;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+main div{
+    overflow: hidden;
+    margin-top: 3vh;
+}
+
+main div img{
+    width: 100%;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+main div img:hover{
+    filter: brightness(0.8);
+    transform: scale(1.02);
+}
+
+div{
+    position: relative;
+    width: 31%;
+}
+
+main div a{
+    position: absolute;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 5px 10px 5px 10px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: white;
+}
+
+main h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin: 50px;
+}
+    
+
+

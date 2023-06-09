@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding:0;
+ font-family: 'Josefin Sans', sansa-serif;
+ color: white;
+ font-weight: 400;
+}
+
+
+
+body {background-color: black;
+margin-top: 2%;
+}
+
+svg{
+transition: 0.3s;
+fill: grey;}
+
+svg:hover {
+    fill: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 1%;
+
+    align-items: center;
+}
+header div{
+width: 12%;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    list-style: none;
+    color: gray;
+}
+
+li:hover{
+    color: green;
+}
+
+li{
+    color: gray;
+    font-size: 14px;
+}
+
+#Sub{
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 99;
+    width: 250%;
+    margin-top: 20px;
+}
+
+#Sub li{
+    padding: 10px 0px 10px 0px;
+    font-size: 17px;
+     color: black;
+     padding-left: 15px;}
+
+#Gallery{
+    position: relative;
+}
+
+#Gallery:hover #Sub{
+    flex-direction: column;
+    display: block;
+    top: 0px;
+   
+}
+
+a{
+    text-decoration: none;
+   color: gray;
+}
+
+a:hover{
+    color: green;
+}
+
+#icones{
+display: flex;
+gap: 2em;
+fill: gray;
+}
+
+
+main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#service{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+#imgfdp{
+
+    margin-top: 1px;
+    margin-left: 12px;
+    
+}
+
+main div img{
+    width: 100%;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+main div img:hover{
+    filter: brightness(0.8);
+    transform: scale(1.02);
+}
+
+#lorem{
+    
+    margin-right: 10vh;
+}
+    
+   
+main section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
+main.lorem{
+
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+#service{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#clara{
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+
+#mission{
+
+   position: absolute;
+   top: 470px;
+   right: 5%;
+   font-size: 15px;
+   flex-wrap: wrap;
+}
+
+#mission p{
+    margin-top: 3%;
+    color: gray;
+}
+
+#mission #Lorem {
+    margin-top: 8px;
+}
+
+#espaco{
+    width: 200px;
+}
+
+#clara p{
+color: gray;
+}
+
+#lorem p{
+    margin-bottom: 10px;
+}
+
+#principal  {
+   
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#banana{
+    position: absolute;
+    left: 140vh;
+}
+
+#banana p{
+    color: gray;
+}
+
+#uva{
+    position: absolute;
+    left: 73vh;
+}
+
+#uva p{
+    color: gray;
+}
+
+#abacaxi{
+    position: absolute;
+    left: 5vh;
+}
+
+#abacaxi p{
+    color: gray;
+}
+
+
+#coca{
+    position: relative;
+    left: 130px;
+    border-radius: 90%;
+    width: 289px;
+    text-align: center;
+    margin-top: 10%;
+ 
+}
+
+#cards{
+    margin-left: 40%;
+    margin-top: 10%;
+     
+}
+
+#twiter{
+    position: relative;
+    right: 40px;
+    
+}
+
+#facebook{
+    position: relative;
+    left: 40px;
+}
+
+footer{
+    text-align: center;
+    margin: 600px;
+    margin-bottom:100px ;
+}
+
+footer p {
+    color: gray;
+}
+
+#ins{
+    width: 30px;
+}
